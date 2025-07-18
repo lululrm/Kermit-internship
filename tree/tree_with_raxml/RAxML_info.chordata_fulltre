@@ -46,9 +46,27 @@ Substitution Matrix: GTR
 
 RAxML was called as follows:
 
-../tree/standard-RAxML/raxmlHPC-PTHREADS -T 8 -s chordata_aligned.phy -n quamaps_tree -m GTRGAMMA -p 12345 
+./standard-RAxML/raxmlHPC-PTHREADS-SSE3 -T 8 -s chordata_aligned.phy -n chordata_fulltree -m GTRGAMMA -p 12345 
 
 
 Partition: 0 with name: No Name Provided
 Base frequencies: 0.247 0.277 0.181 0.295 
+
+Inference[0]: Time 1167.948782 GAMMA-based likelihood -208469.348732, best rearrangement setting 20
+alpha[0]: 0.393511 rates[0] ac ag at cg ct gt: 1.484441 5.630811 1.438255 0.440355 12.318990 1.000000 
+
+
+Conducting final model optimizations on all 1 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -208468.968430 tree written to file /home/lime/RAxML_result.chordata_fulltree
+
+
+Starting final GAMMA-based thorough Optimization on tree 0 likelihood -208468.968430 .... 
+
+Final GAMMA-based Score of best tree -208468.968430
+
+Program execution info written to /home/lime/RAxML_info.chordata_fulltree
+Best-scoring ML tree written to: /home/lime/RAxML_bestTree.chordata_fulltree
+
+Overall execution time: 1298.611844 secs or 0.360726 hours or 0.015030 days
 
